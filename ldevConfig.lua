@@ -25,7 +25,7 @@ ldevPescador = {
             1861786828,
             -276744698,
         },
-        ['TempoProgresso'] = 60,
+        ['TempoProgresso'] = 10,
         ['ItemVaraDePesca'] = 'varadepesca',
         ['ItemIsca'] = 'minhoca',
         ['QtdItemIsca'] = 1,
