@@ -34,6 +34,7 @@ function scriptPescador.verificaRecompensa()
         local randompeixe = math.random(#ldevPescador['Pescaria']['ItensPeixes'])
         if vRP.getInventoryWeight(user_id)+vRP.getItemWeight(ldevPescador['Pescaria']['ItensPeixes'][randompeixe])*1 <= vRP.getInventoryMaxWeight(user_id) then
             if vRP.tryGetInventoryItem(user_id,ldevPescador['Pescaria']['ItemIsca'],ldevPescador['Pescaria']['QtdItemIsca'],false) then
+                Wait(ldevPescador['Pescaria']['TempoProgresso']*1000)
                 vRP.giveInventoryItem(user_id,ldevPescador['Pescaria']['ItensPeixes'][randompeixe],1)
                 return true
             end
