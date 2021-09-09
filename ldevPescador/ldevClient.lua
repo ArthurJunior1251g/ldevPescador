@@ -29,6 +29,7 @@ CreateThread(function()
                             pescando = true
                             vRP.CarregarObjeto('amb@world_human_stand_fishing@idle_a','idle_c','prop_fishing_rod_01',49,60309)
                             vRP._playAnim(false,{{'amb@world_human_stand_fishing@idle_a','idle_c'}},true)
+                            pescadorSV.recebeRecompensa()
                         end
                     end
                 end
