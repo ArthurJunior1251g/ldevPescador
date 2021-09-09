@@ -1,7 +1,8 @@
 ldevPescador = {
     
     ['Notificações'] = {
-        ['SemIsca'] = {'Você precisa de ',' minhocas para pescar'}
+        ['SemIsca'] = {'Você precisa de ',' minhocas para pescar!'},
+        ['SemVara'] = 'Você não possui uma vara de pesca.',
     },
     
     ['Pescaria'] = {
